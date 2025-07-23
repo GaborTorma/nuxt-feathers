@@ -71,7 +71,7 @@ export default defineNuxtModule<ModuleOptions>({
     name: 'nuxt-feathers',
     configKey: 'feathers',
     compatibility: {
-      nuxt: '^3.0.0',
+      nuxt: '^4.0.0',
     },
   },
   // Default configuration options of the Nuxt module

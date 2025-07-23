@@ -1,3 +1,5 @@
+// @vitest-environment node
+
 import type { Paginated } from '@feathersjs/feathers'
 import type { MongoData } from '../../services/mongos/mongos'
 import { fileURLToPath } from 'node:url'

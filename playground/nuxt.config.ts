@@ -4,11 +4,7 @@ const mongod = await MongoMemoryServer.create()
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: '2025-04-27',
-
-  future: {
-    compatibilityVersion: 4,
-  },
+  compatibilityDate: '2025-07-23',
 
   extends: [
     '@gabortorma/nuxt-eslint-layer',

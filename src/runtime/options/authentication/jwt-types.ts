@@ -1,20 +1,20 @@
 // types grabbed from jsonwebtoken 9.0.7
 
 // https://github.com/auth0/node-jsonwebtoken#algorithms-supported
-export type Algorithm =
-  | 'HS256'
-  | 'HS384'
-  | 'HS512'
-  | 'RS256'
-  | 'RS384'
-  | 'RS512'
-  | 'ES256'
-  | 'ES384'
-  | 'ES512'
-  | 'PS256'
-  | 'PS384'
-  | 'PS512'
-  | 'none'
+export type Algorithm
+  = | 'HS256'
+    | 'HS384'
+    | 'HS512'
+    | 'RS256'
+    | 'RS384'
+    | 'RS512'
+    | 'ES256'
+    | 'ES384'
+    | 'ES512'
+    | 'PS256'
+    | 'PS384'
+    | 'PS512'
+    | 'none'
 
 // standard names https://www.rfc-editor.org/rfc/rfc7515.html#section-4.1
 export interface JwtHeader {

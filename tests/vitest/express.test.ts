@@ -1,3 +1,5 @@
+// @vitest-environment node
+
 import type { MessageData } from '../../services/messages/messages'
 import { fileURLToPath } from 'node:url'
 import { $fetch, setup } from '@nuxt/test-utils/e2e'

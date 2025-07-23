@@ -1,3 +1,5 @@
+// @vitest-environment node
+
 import type { ClientApplication } from 'nuxt-feathers/client'
 import type { User, UserData } from '../../services/users/users'
 import { fileURLToPath } from 'node:url'

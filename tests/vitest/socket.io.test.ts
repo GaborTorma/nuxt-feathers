@@ -1,3 +1,5 @@
+// @vitest-environment node
+
 import type { ClientApplication } from 'nuxt-feathers/client'
 import type { Socket } from 'socket.io-client'
 import type { Message } from '../../services/messages/messages'
