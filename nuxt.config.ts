@@ -7,6 +7,7 @@ export default defineNuxtConfig({
   ],
 
   modules: [
+    'nuxt-mcp',
     './src/module',
   ],
 

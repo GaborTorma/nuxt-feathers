@@ -89,6 +89,7 @@
     "@types/node": "catalog:",
     "dotenv-cli": "catalog:",
     "nuxt": "catalog:",
+    "nuxt-mcp": "catalog:",
     "release-it": "catalog:",
     "typescript": "catalog:",
     "vitest": "catalog:",

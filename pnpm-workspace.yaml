@@ -32,6 +32,7 @@ catalog:
   defu: ^6.1.4
   dotenv-cli: ^9.0.0
   nuxt: ^4.0.1
+  nuxt-mcp: ^0.2.3
   ofetch: ^1.4.1
   pinia: ^3.0.3
   release-it: ^19.0.4

@@ -136,5 +136,15 @@ export default defineNuxtModule<ModuleOptions>({
         addTemplate({ ...clientTemplate, options: resolvedOptions })
       addPlugin({ order: 0, src: resolver.resolve(resolvedOptions.templateDir, 'client/plugin') })
     }
+    nuxt.hook('mcp:setup', ({ mcp }) => {
+      mcp.tool('get-feathers-config', 'Get the Feathers config', {}, async () => {
+        return {
+          content: [{
+            type: 'text',
+            text: JSON.stringify(resolvedOptions, null, 2),
+          }],
+        }
+      })
+    })
   },
 })
